@@ -7,6 +7,7 @@ docker build -t myjenkins-blueocean:2.414.2 .
 
 docker pull devopsjourney1/jenkins-blueocean:2.332.3-1 && docker tag devopsjourney1/jenkins-blueocean:2.332.3-1 myjenkins-blueocean:2.332.3-1
 ```
+OR run the following command to restart the image (Jenkins)
 
 ## Create the network 'jenkins'
 ```
